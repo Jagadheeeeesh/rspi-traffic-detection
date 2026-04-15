@@ -1,0 +1,59 @@
+description: Ultralytics YOLO11n model trained on /datasets/3-2/data.yaml
+author: Ultralytics
+date: '2026-03-25T23:05:10.462297'
+version: 8.4.27
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Y inter section
+  1: cycle crossing
+  2: dangerous dip
+  3: give way
+  4: guarded level crossing
+  5: horns prohibited
+  6: hospital
+  7: hump
+  8: left hair pin bend
+  9: left hand curve
+  10: left turn prohibited
+  11: man at work
+  12: narrow bridge
+  13: no entry
+  14: no parking
+  15: no pedestrians
+  16: no way
+  17: one way
+  18: over taking prohibited
+  19: pedestrian crossing
+  20: petrol pump
+  21: right hair pin bend
+  22: right hand curve
+  23: right turn prohibited
+  24: round about
+  25: school ahead
+  26: side road left
+  27: side road right
+  28: speed limit 10kmph
+  29: speed limit 20kmph
+  30: speed limit 25kmph
+  31: speed limit 30kmph
+  32: speed limit 40kmph
+  33: speed limit 50kmph
+  34: speed limit 60kmph
+  35: speed limit 80kmph
+  36: staggered intersection
+  37: stop
+  38: u turn
+  39: u turn prohibited
+  40: unguarded level crossing
+args:
+  batch: 1
+  half: false
+channels: 3
+end2end: false
